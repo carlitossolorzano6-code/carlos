@@ -1,0 +1,524 @@
+[
+  {
+    "text": "GTA",
+    "start": 0.2,
+    "end": 0.32,
+    "id": "w0"
+  },
+  {
+    "text": "6",
+    "start": 0.41,
+    "end": 0.74,
+    "id": "w1"
+  },
+  {
+    "text": "sale",
+    "start": 0.74,
+    "end": 1.23,
+    "id": "w2"
+  },
+  {
+    "text": "en",
+    "start": 1.25,
+    "end": 1.49,
+    "id": "w3"
+  },
+  {
+    "text": "solo",
+    "start": 1.49,
+    "end": 1.98,
+    "id": "w4"
+  },
+  {
+    "text": "8",
+    "start": 1.98,
+    "end": 2.17,
+    "id": "w5"
+  },
+  {
+    "text": "días.",
+    "start": 2.17,
+    "end": 2.97,
+    "id": "w6"
+  },
+  {
+    "text": "Yestos",
+    "start": 2.97,
+    "end": 3.42,
+    "id": "w7"
+  },
+  {
+    "text": "4",
+    "start": 3.42,
+    "end": 3.68,
+    "id": "w8"
+  },
+  {
+    "text": "secretos",
+    "start": 3.69,
+    "end": 4.41,
+    "id": "w9"
+  },
+  {
+    "text": "casi",
+    "start": 4.41,
+    "end": 4.77,
+    "id": "w10"
+  },
+  {
+    "text": "nadie",
+    "start": 4.77,
+    "end": 5.05,
+    "id": "w11"
+  },
+  {
+    "text": "los",
+    "start": 5.05,
+    "end": 5.85,
+    "id": "w12"
+  },
+  {
+    "text": "conoce.",
+    "start": 5.85,
+    "end": 6.04,
+    "id": "w13"
+  },
+  {
+    "text": "1.",
+    "start": 6.23,
+    "end": 6.57,
+    "id": "w14"
+  },
+  {
+    "text": "En",
+    "start": 6.57,
+    "end": 6.75,
+    "id": "w15"
+  },
+  {
+    "text": "2022,",
+    "start": 6.75,
+    "end": 7.96,
+    "id": "w16"
+  },
+  {
+    "text": "un",
+    "start": 7.96,
+    "end": 8.03,
+    "id": "w17"
+  },
+  {
+    "text": "hacker",
+    "start": 8.07,
+    "end": 8.22,
+    "id": "w18"
+  },
+  {
+    "text": "adolescente",
+    "start": 8.8,
+    "end": 9.1,
+    "id": "w19"
+  },
+  {
+    "text": "filtró",
+    "start": 9.1,
+    "end": 9.46,
+    "id": "w20"
+  },
+  {
+    "text": "90",
+    "start": 9.46,
+    "end": 9.82,
+    "id": "w21"
+  },
+  {
+    "text": "vídeos",
+    "start": 9.82,
+    "end": 10.18,
+    "id": "w22"
+  },
+  {
+    "text": "del",
+    "start": 10.18,
+    "end": 10.36,
+    "id": "w23"
+  },
+  {
+    "text": "juego,",
+    "start": 10.36,
+    "end": 10.84,
+    "id": "w24"
+  },
+  {
+    "text": "más",
+    "start": 10.84,
+    "end": 10.99,
+    "id": "w25"
+  },
+  {
+    "text": "de",
+    "start": 11.06,
+    "end": 11.14,
+    "id": "w26"
+  },
+  {
+    "text": "un",
+    "start": 11.14,
+    "end": 11.28,
+    "id": "w27"
+  },
+  {
+    "text": "año",
+    "start": 11.28,
+    "end": 11.4,
+    "id": "w28"
+  },
+  {
+    "text": "antes",
+    "start": 11.4,
+    "end": 11.84,
+    "id": "w29"
+  },
+  {
+    "text": "del",
+    "start": 11.84,
+    "end": 11.9,
+    "id": "w30"
+  },
+  {
+    "text": "primer",
+    "start": 12.27,
+    "end": 12.53,
+    "id": "w31"
+  },
+  {
+    "text": "trailer.",
+    "start": 12.53,
+    "end": 13.48,
+    "id": "w32"
+  },
+  {
+    "text": "2.",
+    "start": 13.68,
+    "end": 13.92,
+    "id": "w33"
+  },
+  {
+    "text": "Ese",
+    "start": 13.92,
+    "end": 14.13,
+    "id": "w34"
+  },
+  {
+    "text": "primer",
+    "start": 14.13,
+    "end": 14.57,
+    "id": "w35"
+  },
+  {
+    "text": "trailer",
+    "start": 14.57,
+    "end": 15.09,
+    "id": "w36"
+  },
+  {
+    "text": "salió",
+    "start": 15.09,
+    "end": 15.45,
+    "id": "w37"
+  },
+  {
+    "text": "antes",
+    "start": 15.45,
+    "end": 15.65,
+    "id": "w38"
+  },
+  {
+    "text": "de",
+    "start": 15.65,
+    "end": 16.4,
+    "id": "w39"
+  },
+  {
+    "text": "tiempo,",
+    "start": 16.4,
+    "end": 16.54,
+    "id": "w40"
+  },
+  {
+    "text": "porque",
+    "start": 16.54,
+    "end": 16.92,
+    "id": "w41"
+  },
+  {
+    "text": "también",
+    "start": 17.02,
+    "end": 17.49,
+    "id": "w42"
+  },
+  {
+    "text": "se",
+    "start": 17.56,
+    "end": 17.64,
+    "id": "w43"
+  },
+  {
+    "text": "filtró.",
+    "start": 17.64,
+    "end": 18.4,
+    "id": "w44"
+  },
+  {
+    "text": "3.",
+    "start": 18.59,
+    "end": 18.98,
+    "id": "w45"
+  },
+  {
+    "text": "Basedi",
+    "start": 18.98,
+    "end": 19.56,
+    "id": "w46"
+  },
+  {
+    "text": "es",
+    "start": 19.56,
+    "end": 19.75,
+    "id": "w47"
+  },
+  {
+    "text": "solo",
+    "start": 19.75,
+    "end": 20.14,
+    "id": "w48"
+  },
+  {
+    "text": "una",
+    "start": 20.14,
+    "end": 20.38,
+    "id": "w49"
+  },
+  {
+    "text": "parte.",
+    "start": 20.38,
+    "end": 21.24,
+    "id": "w50"
+  },
+  {
+    "text": "El",
+    "start": 21.24,
+    "end": 21.48,
+    "id": "w51"
+  },
+  {
+    "text": "estado",
+    "start": 21.48,
+    "end": 21.84,
+    "id": "w52"
+  },
+  {
+    "text": "de",
+    "start": 21.84,
+    "end": 21.99,
+    "id": "w53"
+  },
+  {
+    "text": "Leonida",
+    "start": 21.99,
+    "end": 22.51,
+    "id": "w54"
+  },
+  {
+    "text": "tiene",
+    "start": 22.51,
+    "end": 22.88,
+    "id": "w55"
+  },
+  {
+    "text": "6",
+    "start": 22.88,
+    "end": 23.05,
+    "id": "w56"
+  },
+  {
+    "text": "regiones,",
+    "start": 23.09,
+    "end": 23.83,
+    "id": "w57"
+  },
+  {
+    "text": "inspiradas",
+    "start": 24.28,
+    "end": 24.51,
+    "id": "w58"
+  },
+  {
+    "text": "en",
+    "start": 24.59,
+    "end": 24.69,
+    "id": "w59"
+  },
+  {
+    "text": "Florida.",
+    "start": 24.78,
+    "end": 25.51,
+    "id": "w60"
+  },
+  {
+    "text": "4.",
+    "start": 25.71,
+    "end": 26.06,
+    "id": "w61"
+  },
+  {
+    "text": "GTA",
+    "start": 26.06,
+    "end": 26.32,
+    "id": "w62"
+  },
+  {
+    "text": "5",
+    "start": 26.32,
+    "end": 26.6,
+    "id": "w63"
+  },
+  {
+    "text": "ya",
+    "start": 26.6,
+    "end": 26.78,
+    "id": "w64"
+  },
+  {
+    "text": "superó",
+    "start": 26.78,
+    "end": 27.32,
+    "id": "w65"
+  },
+  {
+    "text": "los",
+    "start": 27.32,
+    "end": 27.54,
+    "id": "w66"
+  },
+  {
+    "text": "225",
+    "start": 27.54,
+    "end": 28.4,
+    "id": "w67"
+  },
+  {
+    "text": "millones",
+    "start": 28.57,
+    "end": 29.12,
+    "id": "w68"
+  },
+  {
+    "text": "de",
+    "start": 29.12,
+    "end": 29.3,
+    "id": "w69"
+  },
+  {
+    "text": "copias",
+    "start": 29.3,
+    "end": 29.84,
+    "id": "w70"
+  },
+  {
+    "text": "vendidas.",
+    "start": 29.84,
+    "end": 30.82,
+    "id": "w71"
+  },
+  {
+    "text": "GTA",
+    "start": 31.04,
+    "end": 31.14,
+    "id": "w72"
+  },
+  {
+    "text": "6",
+    "start": 31.14,
+    "end": 31.44,
+    "id": "w73"
+  },
+  {
+    "text": "tiene",
+    "start": 31.44,
+    "end": 31.94,
+    "id": "w74"
+  },
+  {
+    "text": "mucho",
+    "start": 31.94,
+    "end": 32.44,
+    "id": "w75"
+  },
+  {
+    "text": "que",
+    "start": 32.44,
+    "end": 32.74,
+    "id": "w76"
+  },
+  {
+    "text": "superar.",
+    "start": 32.74,
+    "end": 33.52,
+    "id": "w77"
+  },
+  {
+    "text": "Síguenos,",
+    "start": 33.65,
+    "end": 34.17,
+    "id": "w78"
+  },
+  {
+    "text": "cada",
+    "start": 34.17,
+    "end": 34.41,
+    "id": "w79"
+  },
+  {
+    "text": "día,",
+    "start": 34.43,
+    "end": 34.74,
+    "id": "w80"
+  },
+  {
+    "text": "un",
+    "start": 34.75,
+    "end": 34.88,
+    "id": "w81"
+  },
+  {
+    "text": "secreto",
+    "start": 34.88,
+    "end": 35.33,
+    "id": "w82"
+  },
+  {
+    "text": "nuevo",
+    "start": 35.33,
+    "end": 35.65,
+    "id": "w83"
+  },
+  {
+    "text": "hasta",
+    "start": 35.65,
+    "end": 35.71,
+    "id": "w84"
+  },
+  {
+    "text": "el",
+    "start": 35.71,
+    "end": 36.1,
+    "id": "w85"
+  },
+  {
+    "text": "lanzamiento.",
+    "start": 36.1,
+    "end": 36.88,
+    "id": "w86"
+  }
+]

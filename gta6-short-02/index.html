@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1080, height=1920" />
@@ -8,6 +8,8 @@
       window.__hf = window.__hf || {};
       window.__hf.buildReady = window.__hf.buildReady || {};
       window.__hf.buildReady.world = new Promise((r) => (window.__worldResolve = r));
+      window.__WORLD_SEAMS = [6.2, 13.6, 18.5, 25.6, 33.5];
+      window.__WORLD_DUR = 38.6;
     </script>
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -28,12 +30,12 @@
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="37" data-width="1080" data-height="1920">
-      <div id="world" class="clip" data-start="0" data-duration="37" data-track-index="0" data-track-kind="graphics">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="38.6" data-width="1080" data-height="1920">
+      <div id="world" class="clip" data-start="0" data-duration="38.6" data-track-index="0" data-track-kind="graphics">
         <canvas id="world-canvas" width="720" height="1280"></canvas>
       </div>
 
-      <div id="fx" class="clip" data-start="0" data-duration="37" data-track-index="1" data-track-kind="graphics">
+      <div id="fx" class="clip" data-start="0" data-duration="38.6" data-track-index="1" data-track-kind="graphics">
         <div id="fx-scrim"></div>
         <canvas id="fx-grain" width="370" height="580"></canvas>
         <div id="fx-scan"></div>
@@ -41,19 +43,19 @@
       </div>
 
       <div id="stage">
-        <div id="hook" data-composition-id="hook" data-composition-src="compositions/hook.html" data-start="0" data-duration="5.8" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
-        <div id="fact1" data-composition-id="fact1" data-composition-src="compositions/fact1.html" data-start="5.8" data-duration="6.7" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
-        <div id="fact2" data-composition-id="fact2" data-composition-src="compositions/fact2.html" data-start="12.5" data-duration="8.8" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
-        <div id="fact3" data-composition-id="fact3" data-composition-src="compositions/fact3.html" data-start="21.3" data-duration="6.6" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
-        <div id="fact4" data-composition-id="fact4" data-composition-src="compositions/fact4.html" data-start="27.9" data-duration="4.7" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
-        <div id="cta" data-composition-id="cta" data-composition-src="compositions/cta.html" data-start="32.6" data-duration="4.4" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="hook" data-composition-id="hook" data-composition-src="compositions/hook.html" data-start="0" data-duration="6.2" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="fact1" data-composition-id="fact1" data-composition-src="compositions/fact1.html" data-start="6.2" data-duration="7.4" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="fact2" data-composition-id="fact2" data-composition-src="compositions/fact2.html" data-start="13.6" data-duration="4.9" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="fact3" data-composition-id="fact3" data-composition-src="compositions/fact3.html" data-start="18.5" data-duration="7.1" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="fact4" data-composition-id="fact4" data-composition-src="compositions/fact4.html" data-start="25.6" data-duration="7.9" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+        <div id="cta" data-composition-id="cta" data-composition-src="compositions/cta.html" data-start="33.5" data-duration="5.1" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
       </div>
 
-      <div id="hud" data-composition-id="hud" data-composition-src="compositions/hud.html" data-start="5.8" data-duration="26.8" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index: 4"></div>
-      <div id="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="37" data-track-index="4" data-track-kind="captions" data-width="1080" data-height="1920" style="z-index: 5"></div>
-      <div id="flash" class="clip" data-start="0" data-duration="37" data-track-index="5" data-track-kind="graphics"></div>
+      <div id="hud" data-composition-id="hud" data-composition-src="compositions/hud.html" data-start="6.2" data-duration="27.3" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index: 4"></div>
+      <div id="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="38.6" data-track-index="4" data-track-kind="captions" data-width="1080" data-height="1920" style="z-index: 5"></div>
+      <div id="flash" class="clip" data-start="0" data-duration="38.6" data-track-index="5" data-track-kind="graphics"></div>
 
-      <audio id="voice" src="assets/voice-norm.mp3" data-start="0" data-duration="36.05" data-track-index="6" data-volume="1"></audio>
+      <audio id="voice" src="assets/voice-norm.mp3" data-start="0" data-duration="37.64" data-track-index="6" data-volume="1"></audio>
     </div>
 
     <script type="module" src="assets/js/world.js"></script>
@@ -68,7 +70,7 @@
         for (let i = 0; i < img.data.length; i += 4) { const v = hash(i * 0.37) * 255; img.data[i] = img.data[i + 1] = img.data[i + 2] = v; img.data[i + 3] = 255; }
         g.putImageData(img, 0, 0);
         const pos = { k: 0 };
-        tl.fromTo(pos, { k: 0 }, { k: 555, duration: 37, ease: "none", onUpdate: () => {
+        tl.fromTo(pos, { k: 0 }, { k: 555, duration: 38.6, ease: "none", onUpdate: () => {
           const k = Math.floor(pos.k);
           c.style.transform = `translate(${(hash(k) - 0.5) * 160}px, ${(hash(k + 99) - 0.5) * 160}px) scale(3)`;
         } }, 0);
@@ -90,8 +92,8 @@
         tl.to("#flash", { opacity: 0, duration: 0.28, ease: "power2.out" }, at);
       }
 
-      flash(5.8, 0.75); flash(12.5, 0.6, "#22e4ff"); flash(21.3, 0.7, "#ff8a3d"); flash(27.9, 0.6, "#ffd166"); flash(32.6, 0.8, "#ff2e88");
-      [[1.9, 26], [9.05, 22], [10.95, 18], [14.95, 30], [19.4, 20], [23.9, 16], [25.1, 16], [26.55, 26], [30.25, 28], [32.7, 22]].forEach(([t, a]) => shake(t, a));
+      flash(6.2, 0.75); flash(13.6, 0.6, "#22e4ff"); flash(18.5, 0.7, "#ff8a3d"); flash(25.6, 0.6, "#ffd166"); flash(33.5, 0.8, "#ff2e88");
+      [[2.0, 26], [6.8, 22], [9.5, 20], [11.45, 16], [15.15, 24], [17.65, 28], [19.0, 22], [22.95, 14], [27.6, 30], [31.05, 18], [33.6, 22]].forEach(([t, a]) => shake(t, a));
 
       window.__timelines["main"] = tl;
     </script>

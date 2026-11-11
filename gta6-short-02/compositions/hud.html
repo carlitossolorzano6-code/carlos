@@ -7,17 +7,17 @@
     #hud-tag { position: absolute; left: 60px; top: 222px; font-weight: 900; font-size: 30px; letter-spacing: 0.14em; color: #fff4e6; opacity: 0.85; }
   </style>
   <div id="root" data-composition-id="hud" data-width="1080" data-height="1920">
-    <div id="hud-bar" class="clip" data-start="0" data-duration="26.8">
+    <div id="hud-bar" class="clip" data-start="0" data-duration="27.3">
       <div class="hud-seg"><i id="hud-s1"></i></div><div class="hud-seg"><i id="hud-s2"></i></div><div class="hud-seg"><i id="hud-s3"></i></div><div class="hud-seg"><i id="hud-s4"></i></div>
     </div>
-    <div id="hud-tag" class="clip" data-start="0" data-duration="26.8">GTA VI · FACT FILE</div>
+    <div id="hud-tag" class="clip" data-start="0" data-duration="27.3">GTA VI · SECRETOS</div>
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
     tl.fromTo(["#hud-bar", "#hud-tag"], { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4, ease: "expo.out" }, 0.1);
     // segments fill through each fact (times local to the HUD, which starts at 5.8 s)
-    [["#hud-s1", 0, 6.7], ["#hud-s2", 6.7, 8.8], ["#hud-s3", 15.5, 6.6], ["#hud-s4", 22.1, 4.7]].forEach(([s, t, d]) => tl.fromTo(s, { scaleX: 0 }, { scaleX: 1, duration: d, ease: "none" }, t));
-    tl.to(["#hud-bar", "#hud-tag"], { opacity: 0, duration: 0.2 }, 26.55);
+    [["#hud-s1", 0, 7.4], ["#hud-s2", 7.4, 4.9], ["#hud-s3", 12.3, 7.1], ["#hud-s4", 19.4, 7.9]].forEach(([s, t, d]) => tl.fromTo(s, { scaleX: 0 }, { scaleX: 1, duration: d, ease: "none" }, t));
+    tl.to(["#hud-bar", "#hud-tag"], { opacity: 0, duration: 0.2 }, 27.05);
     window.__timelines["hud"] = tl;
   </script>
 </template>
