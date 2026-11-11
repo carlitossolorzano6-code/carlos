@@ -3,6 +3,7 @@
 set -e
 npm install -g hyperframes
 (cd remotion-video && npm install)
+(cd motion-canvas-video && npm install)
 (cd hyperframes-video && npm install || true)
 if [ ! -d ../MoneyPrinterTurbo ]; then
   git clone --depth 1 https://github.com/harry0703/MoneyPrinterTurbo.git ../MoneyPrinterTurbo
