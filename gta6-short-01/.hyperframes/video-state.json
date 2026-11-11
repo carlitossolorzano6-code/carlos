@@ -240,7 +240,6 @@
         {
           "id": "85d07dca-4d45-4273-81db-0d45eea4f4b5",
           "scope": "project",
-          "report": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/checks/85d07dca-4d45-4273-81db-0d45eea4f4b5.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -265,14 +264,15 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         }
       ],
       "1f2a3794-afb5-4f38-bb2e-dd059e516dfe": [
         {
           "id": "43c96d0f-3f9f-401a-8aad-b70a8036b613",
           "scope": "project",
-          "report": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/checks/43c96d0f-3f9f-401a-8aad-b70a8036b613.json",
           "metadata": {
             "ok": false,
             "browserSkipped": false,
@@ -297,12 +297,13 @@
           "revision": "1f2a3794-afb5-4f38-bb2e-dd059e516dfe",
           "inputFingerprint": "4c7dff712c8823382aa5c9236236e55865a0f2ab72543ba1831518c27c5f0457",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "id": "44b8de57-3e64-43b2-a108-b9bfb87f4d10",
           "scope": "project",
-          "report": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/checks/44b8de57-3e64-43b2-a108-b9bfb87f4d10.json",
           "metadata": {
             "ok": false,
             "browserSkipped": false,
@@ -327,14 +328,15 @@
           "revision": "1f2a3794-afb5-4f38-bb2e-dd059e516dfe",
           "inputFingerprint": "4c7dff712c8823382aa5c9236236e55865a0f2ab72543ba1831518c27c5f0457",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         }
       ],
       "d1a85f33-33d7-4502-b13f-f7fcdab318eb": [
         {
           "id": "1dd9411f-9382-4ca0-8669-f5169571dfb0",
           "scope": "project",
-          "report": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/checks/1dd9411f-9382-4ca0-8669-f5169571dfb0.json",
           "metadata": {
             "ok": true,
             "browserSkipped": false,
@@ -359,7 +361,9 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         }
       ],
       "4111ec4a-e84b-4df0-917c-4a0e0fe92616": [
@@ -429,16 +433,12 @@
     ]
   },
   "snapshots": {
-    "latest": {
-      "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
-      "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-12"
-    },
+    "latest": null,
     "revisions": {
       "6041af18-5882-4e54-b08c-23f44b63f9fa": [
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-0",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-00-at-0s.png",
           "time": 0,
           "metadata": {
             "width": 1080,
@@ -453,12 +453,13 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-1",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-01-at-2.6s.png",
           "time": 2.6,
           "metadata": {
             "width": 1080,
@@ -473,12 +474,13 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-2",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-02-at-4.5s.png",
           "time": 4.5,
           "metadata": {
             "width": 1080,
@@ -493,12 +495,13 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-3",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-03-at-8.5s.png",
           "time": 8.5,
           "metadata": {
             "width": 1080,
@@ -513,12 +516,13 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-4",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-04-at-11.5s.png",
           "time": 11.5,
           "metadata": {
             "width": 1080,
@@ -533,12 +537,13 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-5",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-05-at-16s.png",
           "time": 16,
           "metadata": {
             "width": 1080,
@@ -553,12 +558,13 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-6",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-06-at-20s.png",
           "time": 20,
           "metadata": {
             "width": 1080,
@@ -573,12 +579,13 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-7",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-07-at-24s.png",
           "time": 24,
           "metadata": {
             "width": 1080,
@@ -593,12 +600,13 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-8",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-08-at-27.3s.png",
           "time": 27.3,
           "metadata": {
             "width": 1080,
@@ -613,12 +621,13 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-9",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-09-at-31.5s.png",
           "time": 31.5,
           "metadata": {
             "width": 1080,
@@ -633,12 +642,13 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-10",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-10-at-35.5s.png",
           "time": 35.5,
           "metadata": {
             "width": 1080,
@@ -653,12 +663,13 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "6759d431-c7ec-46a6-9e26-0d5c540ffa8d-11",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/8388f8ba-f768-4494-a4cc-258ca82be55a/frame-11-at-36.75s.png",
           "time": 36.75,
           "metadata": {
             "width": 1080,
@@ -673,14 +684,15 @@
           "revision": "6041af18-5882-4e54-b08c-23f44b63f9fa",
           "inputFingerprint": "28e2aeda02dd341482452a6c7bed050c8f8b413d069faa0948b16e727537134b",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         }
       ],
       "d1a85f33-33d7-4502-b13f-f7fcdab318eb": [
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-0",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-00-at-0.15s.png",
           "time": 0.15,
           "metadata": {
             "width": 1080,
@@ -695,12 +707,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-1",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-01-at-2.1s.png",
           "time": 2.1,
           "metadata": {
             "width": 1080,
@@ -715,12 +728,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-2",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-02-at-4.6s.png",
           "time": 4.6,
           "metadata": {
             "width": 1080,
@@ -735,12 +749,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-3",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-03-at-5.75s.png",
           "time": 5.75,
           "metadata": {
             "width": 1080,
@@ -755,12 +770,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-4",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-04-at-8s.png",
           "time": 8,
           "metadata": {
             "width": 1080,
@@ -775,12 +791,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-5",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-05-at-11.4s.png",
           "time": 11.4,
           "metadata": {
             "width": 1080,
@@ -795,12 +812,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-6",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-06-at-15.4s.png",
           "time": 15.4,
           "metadata": {
             "width": 1080,
@@ -815,12 +833,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-7",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-07-at-20s.png",
           "time": 20,
           "metadata": {
             "width": 1080,
@@ -835,12 +854,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-8",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-08-at-24s.png",
           "time": 24,
           "metadata": {
             "width": 1080,
@@ -855,12 +875,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-9",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-09-at-27s.png",
           "time": 27,
           "metadata": {
             "width": 1080,
@@ -875,12 +896,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-10",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-10-at-31s.png",
           "time": 31,
           "metadata": {
             "width": 1080,
@@ -895,12 +917,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-11",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-11-at-35s.png",
           "time": 35,
           "metadata": {
             "width": 1080,
@@ -915,12 +938,13 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         },
         {
           "scope": "full",
           "id": "2f258c4c-229e-4e7d-9167-a7f90bfa7204-12",
-          "image": "/home/user/carlos/gta6-short-01/.hyperframes/artifacts/snapshots/7c5842e9-f675-4e52-9ca2-8c73d0b69501/frame-12-at-36.75s.png",
           "time": 36.75,
           "metadata": {
             "width": 1080,
@@ -935,7 +959,9 @@
           "revision": "d1a85f33-33d7-4502-b13f-f7fcdab318eb",
           "inputFingerprint": "087f8e1f18a78e9ae01363175304e6c8d930570c3efdd9ae280034ee57352b14",
           "inputScope": "local-project-files",
-          "attribution": "recorded-revision"
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "388bd401-2223-4dd1-91b3-47bf9cba1cc7"
         }
       ]
     },
@@ -943,15 +969,15 @@
   },
   "renders": {
     "latest": {
-      "id": "0af502d7-d4bd-48d6-ba56-5bbd87372de7",
-      "completedAt": 1794367647256,
-      "output": "/home/user/carlos/gta6-short-01/out/gta6-short-01.mp4",
+      "id": "388bd401-2223-4dd1-91b3-47bf9cba1cc7",
+      "completedAt": 1794368942101,
+      "output": "/home/user/carlos/gta6-short-01/out/gta6-short-01-v2.mp4",
       "status": "completed",
-      "revision": "54f0617c-52b5-4a56-b3e4-1991128b0f26"
+      "revision": "4111ec4a-e84b-4df0-917c-4a0e0fe92616"
     },
     "retainedRevisions": [
-      "54f0617c-52b5-4a56-b3e4-1991128b0f26",
-      "6041af18-5882-4e54-b08c-23f44b63f9fa"
+      "4111ec4a-e84b-4df0-917c-4a0e0fe92616",
+      "54f0617c-52b5-4a56-b3e4-1991128b0f26"
     ]
   },
   "pendingArtifactCleanup": []
