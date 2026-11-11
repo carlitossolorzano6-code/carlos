@@ -1,0 +1,59 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: "Archivo Black", sans-serif; color: #fff4e6; }
+    #f2-wrap { position: absolute; inset: 0; }
+    #f2-badge { position: absolute; left: 50%; top: 330px; width: 200px; height: 200px; margin-left: -100px; border-radius: 42px; background: #22e4ff; color: #07031a; font-size: 116px; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 60px rgba(34,228,255,0.8); }
+    #f2-label { position: absolute; left: 0; right: 0; top: 570px; text-align: center; font-size: 84px; text-shadow: 0 8px 0 rgba(7,3,26,0.6); }
+    #f2-label span { display: inline-block; margin: 0 12px; }
+    #f2-row { position: absolute; left: 0; right: 0; top: 660px; text-align: center; white-space: nowrap; }
+    #f2-num, #f2-unit { display: inline-block; vertical-align: baseline; }
+    #f2-num { font-size: 260px; line-height: 1; color: #ffd166; text-shadow: 0 0 60px rgba(255,138,61,0.9), 0 12px 0 rgba(7,3,26,0.6); }
+    #f2-unit { font-size: 170px; color: #ff2e88; text-shadow: 0 0 40px rgba(255,46,136,0.8); }
+    #f2-ring { position: absolute; left: 50%; top: 800px; width: 420px; height: 420px; margin: -210px 0 0 -210px; border-radius: 50%; border: 14px solid #22e4ff; opacity: 0; }
+    #f2-ring2 { position: absolute; left: 50%; top: 800px; width: 420px; height: 420px; margin: -210px 0 0 -210px; border-radius: 50%; border: 8px solid #ff2e88; opacity: 0; }
+    #f2-sub { position: absolute; left: 0; right: 0; top: 960px; text-align: center; font-family: "Inter", sans-serif; font-weight: 900; font-size: 52px; letter-spacing: 0.1em; color: #22e4ff; text-shadow: 0 4px 0 rgba(7,3,26,0.8); }
+    #f2-cardwrap { position: absolute; left: 140px; right: 140px; top: 400px; perspective: 1400px; }
+    #f2-card { position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; gap: 22px; padding: 60px 30px; border-radius: 48px; background: rgba(7,3,26,0.82); border: 6px solid #22e4ff; box-shadow: 0 0 70px rgba(34,228,255,0.6), inset 0 0 40px rgba(34,228,255,0.25); }
+    #f2-card-top { font-family: "Inter", sans-serif; font-weight: 900; font-size: 48px; letter-spacing: 0.12em; color: #22e4ff; }
+    #f2-card-big { font-size: 200px; line-height: 0.9; }
+    #f2-card-bot { font-family: "Inter", sans-serif; font-weight: 700; font-size: 42px; opacity: 0.9; }
+    #f2-sweep { position: absolute; top: -50%; left: -60%; width: 40%; height: 200%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.45), transparent); transform: rotate(20deg); }
+  </style>
+  <div id="root" data-composition-id="fact2" data-width="1080" data-height="1920">
+    <div id="f2-wrap">
+      <div id="f2-badge" class="clip" data-start="0" data-duration="6.7">#2</div>
+      <div id="f2-label" class="clip" data-start="0.4" data-duration="6.3"><span>SECOND</span><span>TRAILER</span></div>
+      <div id="f2-ring" class="clip" data-start="2.4" data-duration="1.0"></div>
+      <div id="f2-ring2" class="clip" data-start="2.5" data-duration="1.0"></div>
+      <div id="f2-row" class="clip" data-start="2.2" data-duration="4.5"><span id="f2-num">0</span><span id="f2-unit">M</span></div>
+      <div id="f2-sub" class="clip" data-start="3.8" data-duration="2.9">VIEWS IN ONE DAY</div>
+    </div>
+    <div id="f2-cardwrap" class="clip" data-start="6.75" data-duration="2.05">
+      <div id="f2-card">
+        <div id="f2-card-top">CAPTURED ON A</div>
+        <div id="f2-card-big">PS5</div>
+        <div id="f2-card-bot">a regular one, says Rockstar</div>
+        <div id="f2-sweep"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#f2-wrap", { scale: 0.55, opacity: 0, filter: "blur(16px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.32, ease: "expo.out" }, 0);
+    tl.fromTo("#f2-badge", { rotationY: -180, scale: 0.4 }, { rotationY: 0, scale: 1, duration: 0.6, ease: "back.out(1.8)" }, 0.05);
+    gsap.utils.toArray("#f2-label span").forEach((el, i) => tl.fromTo(el, { opacity: 0, y: -60, rotationX: 90 }, { opacity: 1, y: 0, rotationX: 0, duration: 0.3, ease: "back.out(2)" }, 0.45 + i * 0.1));
+    const n = { v: 0 }, el = document.querySelector("#f2-num");
+    tl.fromTo("#f2-row", { scale: 3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.in" }, 2.2);
+    tl.fromTo(n, { v: 0 }, { v: 475, duration: 1.0, ease: "expo.out", onUpdate: () => (el.textContent = Math.round(n.v)) }, 2.37);
+    tl.fromTo("#f2-ring", { scale: 0.3, opacity: 1 }, { scale: 2.8, opacity: 0, duration: 0.7, ease: "power2.out" }, 2.42);
+    tl.fromTo("#f2-ring2", { scale: 0.3, opacity: 1 }, { scale: 3.4, opacity: 0, duration: 0.8, ease: "power2.out" }, 2.52);
+    tl.fromTo("#f2-sub", { y: 30, opacity: 0, scaleX: 1.5 }, { y: 0, opacity: 1, scaleX: 1, duration: 0.4, ease: "expo.out" }, 3.85);
+    // numbers punch away up, the card flips in
+    tl.to("#f2-wrap", { y: -500, opacity: 0, filter: "blur(14px)", duration: 0.25, ease: "power3.in" }, 6.5);
+    tl.fromTo("#f2-card", { rotationY: 95, scale: 0.7, opacity: 0 }, { rotationY: 0, scale: 1, opacity: 1, duration: 0.55, ease: "back.out(1.6)" }, 6.78);
+    tl.fromTo("#f2-sweep", { x: 0 }, { x: 1500, duration: 0.7, ease: "power2.inOut" }, 7.25);
+    tl.fromTo("#f2-card-big", { scale: 1.25 }, { scale: 1, duration: 0.4, ease: "back.out(3)" }, 6.9);
+    tl.to("#f2-cardwrap", { y: -1200, filter: "blur(18px)", duration: 0.22, ease: "power3.in" }, 8.58);
+    window.__timelines["fact2"] = tl;
+  </script>
+</template>

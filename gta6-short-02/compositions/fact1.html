@@ -1,0 +1,54 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: "Archivo Black", sans-serif; color: #fff4e6; }
+    #f1-wrap { position: absolute; inset: 0; }
+    #f1-badge { position: absolute; left: 50%; top: 330px; width: 200px; height: 200px; margin-left: -100px; border-radius: 42px; background: #ff2e88; color: #07031a; font-size: 116px; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 60px rgba(255,46,136,0.8); }
+    #f1-label { position: absolute; left: 0; right: 0; top: 570px; text-align: center; font-size: 84px; text-shadow: 0 8px 0 rgba(7,3,26,0.6); }
+    #f1-label span { display: inline-block; margin: 0 12px; }
+    #f1-num { position: absolute; left: 0; right: 0; top: 690px; text-align: center; font-size: 150px; line-height: 1; color: #ffd166; text-shadow: 0 0 50px rgba(255,138,61,0.9), 0 10px 0 rgba(7,3,26,0.6); }
+    #f1-ring { position: absolute; left: 50%; top: 770px; width: 400px; height: 400px; margin: -200px 0 0 -200px; border-radius: 50%; border: 12px solid #ffd166; opacity: 0; }
+    #f1-sub { position: absolute; left: 0; right: 0; top: 860px; text-align: center; font-family: "Inter", sans-serif; font-weight: 900; font-size: 52px; letter-spacing: 0.1em; color: #22e4ff; text-shadow: 0 4px 0 rgba(7,3,26,0.8); }
+    #f1-pill { position: absolute; left: 0; right: 0; top: 960px; text-align: center; }
+    #f1-pill span { display: inline-block; font-family: "Inter", sans-serif; font-weight: 900; font-size: 48px; letter-spacing: 0.06em; color: #07031a; background: linear-gradient(90deg, #ffd166, #ffb347); padding: 20px 40px; border-radius: 60px; box-shadow: 0 0 60px rgba(255,209,102,0.85); }
+    #f1-conf { position: absolute; left: 540px; top: 1000px; width: 0; height: 0; }
+    #f1-conf i { position: absolute; left: 0; top: 0; width: 18px; height: 30px; border-radius: 4px; }
+  </style>
+  <div id="root" data-composition-id="fact1" data-width="1080" data-height="1920">
+    <div id="f1-wrap">
+      <div id="f1-badge" class="clip" data-start="0" data-duration="6.7">#1</div>
+      <div id="f1-label" class="clip" data-start="0.3" data-duration="6.4"><span>FIRST</span><span>TRAILER</span></div>
+      <div id="f1-ring" class="clip" data-start="3.1" data-duration="1.0"></div>
+      <div id="f1-num" class="clip" data-start="1.7" data-duration="5.0">0</div>
+      <div id="f1-sub" class="clip" data-start="2.6" data-duration="4.1">YOUTUBE VIEWS IN 24H</div>
+      <div id="f1-pill" class="clip" data-start="5.0" data-duration="1.7"><span>GUINNESS WORLD RECORD</span></div>
+      <div id="f1-conf" class="clip" data-start="5.1" data-duration="1.6"></div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const hash = (n) => { const s = Math.sin(n * 127.1 + 311.7) * 43758.5453; return s - Math.floor(s); };
+    // entrance: arrives blurred from the right (end of the whip)
+    tl.fromTo("#f1-wrap", { x: 900, filter: "blur(18px)" }, { x: 0, filter: "blur(0px)", duration: 0.28, ease: "expo.out" }, 0);
+    tl.fromTo("#f1-badge", { rotationY: 180, scale: 0.4 }, { rotationY: 0, scale: 1, duration: 0.6, ease: "back.out(1.8)" }, 0.05);
+    gsap.utils.toArray("#f1-label span").forEach((el, i) => tl.fromTo(el, { opacity: 0, filter: "blur(10px)", y: 20 }, { opacity: 1, filter: "blur(0px)", y: 0, duration: 0.18, ease: "power2.out" }, 0.35 + i * 0.09));
+    const n = { v: 0 }, el = document.querySelector("#f1-num");
+    tl.fromTo("#f1-num", { scale: 2.4, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "power4.in" }, 1.7);
+    tl.fromTo(n, { v: 0 }, { v: 90000000, duration: 1.35, ease: "expo.out", onUpdate: () => (el.textContent = Math.round(n.v).toLocaleString("en-US")) }, 1.85);
+    tl.fromTo("#f1-num", { scale: 1.18 }, { scale: 1, duration: 0.35, ease: "back.out(3)" }, 3.2);
+    tl.fromTo("#f1-ring", { scale: 0.3, opacity: 1 }, { scale: 2.6, opacity: 0, duration: 0.7, ease: "power2.out" }, 3.2);
+    tl.fromTo("#f1-sub", { y: 30, opacity: 0, scaleX: 1.5 }, { y: 0, opacity: 1, scaleX: 1, duration: 0.4, ease: "expo.out" }, 2.65);
+    tl.fromTo("#f1-pill span", { scale: 0.3, rotation: -8, opacity: 0 }, { scale: 1, rotation: 0, opacity: 1, duration: 0.4, ease: "back.out(2.6)" }, 5.08);
+    // confetti burst, seeded, gravity in the ease
+    const box = document.querySelector("#f1-conf"), cols = ["#ff2e88", "#22e4ff", "#ffd166", "#fff4e6", "#7b5cff"];
+    for (let i = 0; i < 46; i++) {
+      const p = document.createElement("i"); p.style.background = cols[i % cols.length]; box.appendChild(p);
+      const a = -Math.PI / 2 + (hash(i) - 0.5) * 2.6, v = 420 + hash(i + 40) * 520;
+      tl.fromTo(p, { x: 0, y: 0, rotation: 0, opacity: 1 }, { x: Math.cos(a) * v, duration: 1.5, ease: "power2.out" }, 5.12);
+      tl.fromTo(p, { y: 0 }, { y: Math.sin(a) * v + 900, duration: 1.5, ease: "power2.in" }, 5.12);
+      tl.to(p, { rotation: (hash(i + 7) - 0.5) * 900, opacity: 0, duration: 1.5, ease: "power1.in" }, 5.12);
+    }
+    // zoom-through exit
+    tl.to("#f1-wrap", { scale: 2.6, opacity: 0, filter: "blur(16px)", duration: 0.25, ease: "power3.in" }, 6.45);
+    window.__timelines["fact1"] = tl;
+  </script>
+</template>
