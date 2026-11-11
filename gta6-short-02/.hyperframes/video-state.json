@@ -533,5 +533,18 @@
         "attribution": "unversioned"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "f7d1dbc6-8219-4e80-adf2-09ebaaa9502b",
+      "completedAt": 1794377323535,
+      "output": "/home/user/carlos/gta6-short-02/out/gta6-short-02.mp4",
+      "status": "completed",
+      "revision": "aee96905-a4a2-4da0-8cc5-713f61f3f459"
+    },
+    "retainedRevisions": [
+      "aee96905-a4a2-4da0-8cc5-713f61f3f459"
+    ]
+  },
+  "pendingArtifactCleanup": []
 }
