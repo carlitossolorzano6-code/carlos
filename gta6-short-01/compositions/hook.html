@@ -1,0 +1,35 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: "Archivo Black", sans-serif; color: #fff4e6; }
+    #hook-wrap { position: absolute; left: 0; right: 0; top: 300px; display: flex; flex-direction: column; align-items: center; gap: 36px; }
+    #hook-pill { font-family: "Inter", sans-serif; font-weight: 900; font-size: 38px; letter-spacing: 0.12em; color: #0b0620; background: #22e4ff; padding: 14px 34px; border-radius: 60px; }
+    #hook-title { font-size: 230px; line-height: 0.9; letter-spacing: -0.02em; background: linear-gradient(180deg, #fff4e6 10%, #ff2e88 95%); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 10px 0 rgba(11,6,32,0.6)); }
+    #hook-count { display: flex; align-items: baseline; gap: 24px; }
+    #hook-num { font-size: 300px; line-height: 0.85; color: #ffd166; text-shadow: 0 0 40px rgba(255,138,61,0.7); }
+    #hook-days { font-size: 110px; color: #fff4e6; }
+    #hook-facts { position: absolute; left: 0; right: 0; top: 760px; text-align: center; font-size: 104px; line-height: 1.02; }
+    #hook-facts span { color: #22e4ff; }
+  </style>
+  <div id="root" data-composition-id="hook" data-width="1080" data-height="1920">
+    <div id="hook-wrap">
+      <div id="hook-pill" class="clip" data-start="0" data-duration="5.8">RELEASES NOV 19</div>
+      <div id="hook-title" class="clip" data-start="0" data-duration="5.8">GTA VI</div>
+      <div id="hook-count" class="clip" data-start="0" data-duration="3.2">
+        <div id="hook-num">8</div>
+        <div id="hook-days">DAYS</div>
+      </div>
+    </div>
+    <div id="hook-facts" class="clip" data-start="3.2" data-duration="2.6"><span>4 FACTS</span><br />MOST FANS<br />DON'T KNOW</div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#hook-title", { scale: 1.12 }, { scale: 1, duration: 0.6, ease: "power3.out" }, 0);
+    tl.fromTo("#hook-pill", { y: -20, opacity: 0.4 }, { y: 0, opacity: 1, duration: 0.4, ease: "power2.out" }, 0);
+    tl.fromTo("#hook-num", { scale: 0.4, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.45, ease: "back.out(2.2)" }, 1.8);
+    tl.fromTo("#hook-days", { x: 60, opacity: 0 }, { x: 0, opacity: 1, duration: 0.4, ease: "power3.out" }, 2.0);
+    tl.to("#hook-count", { opacity: 0, y: -30, duration: 0.2, ease: "power2.in" }, 2.98);
+    tl.fromTo("#hook-facts", { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45, ease: "power3.out" }, 3.3);
+    tl.to("#hook-facts", { opacity: 0, duration: 0.15 }, 5.6);
+    window.__timelines["hook"] = tl;
+  </script>
+</template>

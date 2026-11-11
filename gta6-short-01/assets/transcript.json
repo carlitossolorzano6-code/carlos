@@ -1,0 +1,542 @@
+[
+  {
+    "text": "GTA",
+    "start": 0.05,
+    "end": 0.31,
+    "id": "w0"
+  },
+  {
+    "text": "VI",
+    "start": 0.34,
+    "end": 0.56,
+    "id": "w1"
+  },
+  {
+    "text": "drops",
+    "start": 0.56,
+    "end": 1.12,
+    "id": "w2"
+  },
+  {
+    "text": "in",
+    "start": 1.12,
+    "end": 1.32,
+    "id": "w3"
+  },
+  {
+    "text": "just",
+    "start": 1.35,
+    "end": 1.64,
+    "id": "w4"
+  },
+  {
+    "text": "8",
+    "start": 1.88,
+    "end": 2.06,
+    "id": "w5"
+  },
+  {
+    "text": "days!",
+    "start": 2.23,
+    "end": 2.74,
+    "id": "w6"
+  },
+  {
+    "text": "Here",
+    "start": 3.09,
+    "end": 3.3,
+    "id": "w7"
+  },
+  {
+    "text": "are",
+    "start": 3.3,
+    "end": 3.55,
+    "id": "w8"
+  },
+  {
+    "text": "4",
+    "start": 3.55,
+    "end": 3.8,
+    "id": "w9"
+  },
+  {
+    "text": "facts",
+    "start": 3.8,
+    "end": 4.22,
+    "id": "w10"
+  },
+  {
+    "text": "most",
+    "start": 4.22,
+    "end": 4.56,
+    "id": "w11"
+  },
+  {
+    "text": "fans",
+    "start": 4.56,
+    "end": 4.9,
+    "id": "w12"
+  },
+  {
+    "text": "don't",
+    "start": 4.9,
+    "end": 5.3,
+    "id": "w13"
+  },
+  {
+    "text": "know.",
+    "start": 5.3,
+    "end": 5.76,
+    "id": "w14"
+  },
+  {
+    "text": "1.",
+    "start": 5.8,
+    "end": 6.18,
+    "id": "w15"
+  },
+  {
+    "text": "The",
+    "start": 6.18,
+    "end": 6.38,
+    "id": "w16"
+  },
+  {
+    "text": "first",
+    "start": 6.4,
+    "end": 6.71,
+    "id": "w17"
+  },
+  {
+    "text": "trailer",
+    "start": 6.82,
+    "end": 7.25,
+    "id": "w18"
+  },
+  {
+    "text": "hit",
+    "start": 7.25,
+    "end": 7.4,
+    "id": "w19"
+  },
+  {
+    "text": "90",
+    "start": 7.64,
+    "end": 7.82,
+    "id": "w20"
+  },
+  {
+    "text": "million",
+    "start": 7.98,
+    "end": 8.36,
+    "id": "w21"
+  },
+  {
+    "text": "YouTube",
+    "start": 8.43,
+    "end": 8.96,
+    "id": "w22"
+  },
+  {
+    "text": "views",
+    "start": 8.96,
+    "end": 9.34,
+    "id": "w23"
+  },
+  {
+    "text": "in",
+    "start": 9.34,
+    "end": 9.4,
+    "id": "w24"
+  },
+  {
+    "text": "24",
+    "start": 9.52,
+    "end": 9.94,
+    "id": "w25"
+  },
+  {
+    "text": "hours.",
+    "start": 9.94,
+    "end": 10.48,
+    "id": "w26"
+  },
+  {
+    "text": "That's",
+    "start": 10.62,
+    "end": 10.85,
+    "id": "w27"
+  },
+  {
+    "text": "a",
+    "start": 10.85,
+    "end": 10.91,
+    "id": "w28"
+  },
+  {
+    "text": "Guinness",
+    "start": 10.91,
+    "end": 11.16,
+    "id": "w29"
+  },
+  {
+    "text": "World",
+    "start": 11.56,
+    "end": 11.6,
+    "id": "w30"
+  },
+  {
+    "text": "Record.",
+    "start": 11.6,
+    "end": 12.48,
+    "id": "w31"
+  },
+  {
+    "text": "2.",
+    "start": 12.52,
+    "end": 12.99,
+    "id": "w32"
+  },
+  {
+    "text": "The",
+    "start": 12.99,
+    "end": 13.25,
+    "id": "w33"
+  },
+  {
+    "text": "second",
+    "start": 13.25,
+    "end": 13.69,
+    "id": "w34"
+  },
+  {
+    "text": "trailer",
+    "start": 13.79,
+    "end": 14.12,
+    "id": "w35"
+  },
+  {
+    "text": "pulled",
+    "start": 14.36,
+    "end": 14.87,
+    "id": "w36"
+  },
+  {
+    "text": "475",
+    "start": 14.87,
+    "end": 15.64,
+    "id": "w37"
+  },
+  {
+    "text": "million",
+    "start": 15.64,
+    "end": 16.12,
+    "id": "w38"
+  },
+  {
+    "text": "views",
+    "start": 16.24,
+    "end": 16.67,
+    "id": "w39"
+  },
+  {
+    "text": "in",
+    "start": 16.67,
+    "end": 16.83,
+    "id": "w40"
+  },
+  {
+    "text": "a",
+    "start": 16.83,
+    "end": 16.96,
+    "id": "w41"
+  },
+  {
+    "text": "single",
+    "start": 16.96,
+    "end": 17.43,
+    "id": "w42"
+  },
+  {
+    "text": "day,",
+    "start": 17.43,
+    "end": 17.76,
+    "id": "w43"
+  },
+  {
+    "text": "and",
+    "start": 17.8,
+    "end": 18,
+    "id": "w44"
+  },
+  {
+    "text": "Rockstar",
+    "start": 18,
+    "end": 18.6,
+    "id": "w45"
+  },
+  {
+    "text": "says",
+    "start": 18.65,
+    "end": 18.96,
+    "id": "w46"
+  },
+  {
+    "text": "it",
+    "start": 18.96,
+    "end": 18.97,
+    "id": "w47"
+  },
+  {
+    "text": "was",
+    "start": 19.12,
+    "end": 19.36,
+    "id": "w48"
+  },
+  {
+    "text": "captured",
+    "start": 19.36,
+    "end": 20.01,
+    "id": "w49"
+  },
+  {
+    "text": "on",
+    "start": 20.01,
+    "end": 20.17,
+    "id": "w50"
+  },
+  {
+    "text": "a",
+    "start": 20.17,
+    "end": 20.25,
+    "id": "w51"
+  },
+  {
+    "text": "regular",
+    "start": 20.25,
+    "end": 20.49,
+    "id": "w52"
+  },
+  {
+    "text": "PS5.",
+    "start": 20.86,
+    "end": 21.28,
+    "id": "w53"
+  },
+  {
+    "text": "3.",
+    "start": 21.32,
+    "end": 21.8,
+    "id": "w54"
+  },
+  {
+    "text": "It",
+    "start": 21.8,
+    "end": 21.95,
+    "id": "w55"
+  },
+  {
+    "text": "was",
+    "start": 21.95,
+    "end": 22.23,
+    "id": "w56"
+  },
+  {
+    "text": "delayed",
+    "start": 22.23,
+    "end": 22.85,
+    "id": "w57"
+  },
+  {
+    "text": "twice,",
+    "start": 22.85,
+    "end": 23.51,
+    "id": "w58"
+  },
+  {
+    "text": "from",
+    "start": 23.51,
+    "end": 23.86,
+    "id": "w59"
+  },
+  {
+    "text": "2025",
+    "start": 23.86,
+    "end": 24.89,
+    "id": "w60"
+  },
+  {
+    "text": "to",
+    "start": 24.89,
+    "end": 25.06,
+    "id": "w61"
+  },
+  {
+    "text": "May",
+    "start": 25.06,
+    "end": 25.22,
+    "id": "w62"
+  },
+  {
+    "text": "2026",
+    "start": 25.33,
+    "end": 26.33,
+    "id": "w63"
+  },
+  {
+    "text": "to",
+    "start": 26.33,
+    "end": 26.5,
+    "id": "w64"
+  },
+  {
+    "text": "November",
+    "start": 26.5,
+    "end": 27.18,
+    "id": "w65"
+  },
+  {
+    "text": "19th.",
+    "start": 27.18,
+    "end": 27.92,
+    "id": "w66"
+  },
+  {
+    "text": "4.",
+    "start": 27.96,
+    "end": 28.42,
+    "id": "w67"
+  },
+  {
+    "text": "By",
+    "start": 28.42,
+    "end": 28.58,
+    "id": "w68"
+  },
+  {
+    "text": "launch",
+    "start": 28.58,
+    "end": 29.08,
+    "id": "w69"
+  },
+  {
+    "text": "day,",
+    "start": 29.08,
+    "end": 29.49,
+    "id": "w70"
+  },
+  {
+    "text": "it'll",
+    "start": 29.49,
+    "end": 29.9,
+    "id": "w71"
+  },
+  {
+    "text": "be",
+    "start": 29.9,
+    "end": 29.97,
+    "id": "w72"
+  },
+  {
+    "text": "13",
+    "start": 30.14,
+    "end": 30.52,
+    "id": "w73"
+  },
+  {
+    "text": "years",
+    "start": 30.56,
+    "end": 30.66,
+    "id": "w74"
+  },
+  {
+    "text": "since",
+    "start": 31.02,
+    "end": 31.24,
+    "id": "w75"
+  },
+  {
+    "text": "GTA",
+    "start": 31.4,
+    "end": 31.56,
+    "id": "w76"
+  },
+  {
+    "text": "Vcame",
+    "start": 31.68,
+    "end": 32.06,
+    "id": "w77"
+  },
+  {
+    "text": "out.",
+    "start": 32.06,
+    "end": 32.64,
+    "id": "w78"
+  },
+  {
+    "text": "Follow",
+    "start": 32.69,
+    "end": 33.07,
+    "id": "w79"
+  },
+  {
+    "text": "for",
+    "start": 33.07,
+    "end": 33.26,
+    "id": "w80"
+  },
+  {
+    "text": "a",
+    "start": 33.28,
+    "end": 33.33,
+    "id": "w81"
+  },
+  {
+    "text": "new",
+    "start": 33.36,
+    "end": 33.56,
+    "id": "w82"
+  },
+  {
+    "text": "GTA",
+    "start": 33.56,
+    "end": 33.77,
+    "id": "w83"
+  },
+  {
+    "text": "VI",
+    "start": 33.77,
+    "end": 33.85,
+    "id": "w84"
+  },
+  {
+    "text": "fact",
+    "start": 33.96,
+    "end": 34.2,
+    "id": "w85"
+  },
+  {
+    "text": "every",
+    "start": 34.2,
+    "end": 34.56,
+    "id": "w86"
+  },
+  {
+    "text": "day",
+    "start": 34.56,
+    "end": 34.7,
+    "id": "w87"
+  },
+  {
+    "text": "until",
+    "start": 34.87,
+    "end": 35.13,
+    "id": "w88"
+  },
+  {
+    "text": "launch.",
+    "start": 35.13,
+    "end": 35.84,
+    "id": "w89"
+  }
+]

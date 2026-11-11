@@ -1,0 +1,43 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: "Archivo Black", sans-serif; color: #fff4e6; }
+    #f2-wrap { position: absolute; left: 0; right: 0; top: 280px; display: flex; flex-direction: column; align-items: center; gap: 30px; }
+    #f2-badge { font-size: 120px; color: #0b0620; background: #22e4ff; width: 210px; height: 210px; border-radius: 40px; display: flex; align-items: center; justify-content: center; transform: rotate(6deg); }
+    #f2-label { font-size: 76px; }
+    #f2-row { display: flex; align-items: baseline; }
+    #f2-num { font-size: 230px; line-height: 0.95; color: #ffd166; text-shadow: 0 0 40px rgba(255,138,61,0.65); }
+    #f2-unit { font-size: 150px; color: #ff2e88; }
+    #f2-sub { font-family: "Inter", sans-serif; font-weight: 900; font-size: 50px; letter-spacing: 0.08em; color: #22e4ff; }
+    #f2-card { position: absolute; left: 140px; right: 140px; top: 380px; display: flex; flex-direction: column; align-items: center; gap: 26px; padding: 54px 30px; border-radius: 44px; background: rgba(11,6,32,0.78); border: 5px solid #22e4ff; box-shadow: 0 0 50px rgba(34,228,255,0.45); }
+    #f2-card-top { font-family: "Inter", sans-serif; font-weight: 900; font-size: 46px; letter-spacing: 0.1em; color: #22e4ff; }
+    #f2-card-big { font-size: 170px; line-height: 0.9; }
+    #f2-card-bot { font-family: "Inter", sans-serif; font-weight: 700; font-size: 40px; color: #fff4e6; opacity: 0.85; }
+  </style>
+  <div id="root" data-composition-id="fact2" data-width="1080" data-height="1920">
+    <div id="f2-wrap">
+      <div id="f2-badge" class="clip" data-start="0" data-duration="6.7">#2</div>
+      <div id="f2-label" class="clip" data-start="0.4" data-duration="6.3">SECOND TRAILER</div>
+      <div id="f2-row" class="clip" data-start="2.3" data-duration="4.4"><div id="f2-num">0</div><div id="f2-unit">M</div></div>
+      <div id="f2-sub" class="clip" data-start="3.8" data-duration="2.9">VIEWS IN ONE DAY</div>
+    </div>
+    <div id="f2-card" class="clip" data-start="6.8" data-duration="2.0">
+      <div id="f2-card-top">CAPTURED ON A</div>
+      <div id="f2-card-big">PS5</div>
+      <div id="f2-card-bot">a regular one, says Rockstar</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const n = { v: 0 };
+    const el = document.querySelector("#f2-num");
+    tl.fromTo("#f2-badge", { scale: 0.3, rotation: 30 }, { scale: 1, rotation: 6, duration: 0.45, ease: "back.out(2)" }, 0);
+    tl.fromTo("#f2-label", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: "power3.out" }, 0.45);
+    tl.fromTo("#f2-row", { scale: 0.7, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3, ease: "power2.out" }, 2.32);
+    tl.fromTo(n, { v: 0 }, { v: 475, duration: 1.1, ease: "power2.out", onUpdate: () => { el.textContent = Math.round(n.v); } }, 2.37);
+    tl.fromTo("#f2-sub", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "power3.out" }, 3.85);
+    tl.to("#f2-wrap", { opacity: 0, y: -40, duration: 0.25, ease: "power2.in" }, 6.45);
+    tl.fromTo("#f2-card", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.45, ease: "back.out(1.8)" }, 6.82);
+    tl.to("#f2-card", { opacity: 0, duration: 0.15 }, 8.6);
+    window.__timelines["fact2"] = tl;
+  </script>
+</template>

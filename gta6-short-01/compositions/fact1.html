@@ -1,0 +1,33 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; font-family: "Archivo Black", sans-serif; color: #fff4e6; }
+    #f1-wrap { position: absolute; left: 0; right: 0; top: 280px; display: flex; flex-direction: column; align-items: center; gap: 30px; }
+    #f1-badge { font-size: 120px; color: #0b0620; background: #ff2e88; width: 210px; height: 210px; border-radius: 40px; display: flex; align-items: center; justify-content: center; transform: rotate(-6deg); }
+    #f1-label { font-size: 76px; letter-spacing: 0.02em; }
+    #f1-num { font-size: 150px; line-height: 1; color: #ffd166; text-shadow: 0 0 36px rgba(255,138,61,0.65); }
+    #f1-sub { font-family: "Inter", sans-serif; font-weight: 900; font-size: 50px; letter-spacing: 0.08em; color: #22e4ff; }
+    #f1-pill { margin-top: 20px; font-family: "Inter", sans-serif; font-weight: 900; font-size: 46px; letter-spacing: 0.06em; color: #0b0620; background: #ffd166; padding: 18px 38px; border-radius: 60px; box-shadow: 0 0 40px rgba(255,209,102,0.6); }
+  </style>
+  <div id="root" data-composition-id="fact1" data-width="1080" data-height="1920">
+    <div id="f1-wrap">
+      <div id="f1-badge" class="clip" data-start="0" data-duration="6.7">#1</div>
+      <div id="f1-label" class="clip" data-start="0.3" data-duration="6.4">FIRST TRAILER</div>
+      <div id="f1-num" class="clip" data-start="1.7" data-duration="5.0">0</div>
+      <div id="f1-sub" class="clip" data-start="2.6" data-duration="4.1">YOUTUBE VIEWS IN 24H</div>
+      <div id="f1-pill" class="clip" data-start="5.0" data-duration="1.7">GUINNESS WORLD RECORD</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    const n = { v: 0 };
+    const el = document.querySelector("#f1-num");
+    tl.fromTo("#f1-badge", { scale: 0.3, rotation: -30 }, { scale: 1, rotation: -6, duration: 0.45, ease: "back.out(2)" }, 0);
+    tl.fromTo("#f1-label", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: "power3.out" }, 0.35);
+    tl.fromTo("#f1-num", { scale: 0.7, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3, ease: "power2.out" }, 1.75);
+    tl.fromTo(n, { v: 0 }, { v: 90000000, duration: 1.2, ease: "power2.out", onUpdate: () => { el.textContent = Math.round(n.v).toLocaleString("en-US"); } }, 1.8);
+    tl.fromTo("#f1-sub", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "power3.out" }, 2.65);
+    tl.fromTo("#f1-pill", { scale: 0.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.4, ease: "back.out(2.4)" }, 5.08);
+    tl.to("#f1-wrap", { opacity: 0, duration: 0.15 }, 6.5);
+    window.__timelines["fact1"] = tl;
+  </script>
+</template>
